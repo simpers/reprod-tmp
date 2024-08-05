@@ -32,6 +32,16 @@ defmodule ReprodTmp.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      # Ash
+      {:ash, "~> 3.0"},
+      {:ash_money, "~> 0.1.7"},
+      {:ash_authentication, "~> 4.0"},
+      {:ash_authentication_phoenix, "~> 2.0"},
+      {:ash_phoenix, "~> 2.0"},
+      {:ash_postgres, "~> 2.0"},
+      {:picosat_elixir, "~> 0.2.3"},
+
+      # Original deps
       {:paraxial, "~> 2.7"},
       {:phoenix, "~> 1.7.14"},
       {:phoenix_ecto, "~> 4.5"},
